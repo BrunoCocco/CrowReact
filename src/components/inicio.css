@@ -1,0 +1,13 @@
+/* Inicio.css */
+.container {
+  display: grid;
+  grid-template-areas:
+    "cuenta main"
+    "proyectos main";
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.cuenta { grid-area: cuenta; }
+.proyectos { grid-area: proyectos; }
+.main { grid-area: main; }

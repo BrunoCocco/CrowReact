@@ -1,11 +1,10 @@
-import "./App.css";
-import Inicio from "./layouts/inicio";
-
+// src/App.jsx
+import Inicio from "./components/Inicio";
 
 function App() {
   return (
     <>
-     <Inicio />
+      <Inicio />
     </>
   );
 }

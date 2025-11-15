@@ -1,0 +1,24 @@
+/* Inicio.css */
+.container {
+  display: grid;
+  grid-template-areas:
+    "cuenta main"
+    "proyecto main";
+  grid-template-columns: 3fr 2fr;
+  gap: 20px;
+
+}
+.cuenta {
+  grid-area: cuenta;
+  margin: 10px 0px ;
+}
+
+.proyecto {
+  grid-area: proyecto;
+  margin: 10px 0px ;
+}
+
+.main {
+  grid-area: main;
+  margin: 10px 0px ;
+}

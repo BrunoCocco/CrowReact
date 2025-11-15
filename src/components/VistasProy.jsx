@@ -1,9 +1,9 @@
 function VistaProyectos (){
     return(
         <>
-        <section>
+        <section className="container">
             <article>
-                <h2>HOLA JUAN ALVERTOOOOOOOOOO</h2>
+                <h2>Pro</h2>
             </article>
         </section>
         </>

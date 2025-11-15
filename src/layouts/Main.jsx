@@ -1,19 +1,9 @@
-import { useEffect } from "react";
-//tenemos que aprender a usar estas giladas, pero venimos de puta madre
-function Main({ stakeado, setStakeado }) {
-  useEffect(() => {
-  const intervalo = setInterval(() => {
-    setStakeado(prev => {
-      if (prev > 0) return prev + 0.01;
-      return prev; // no sumar si es 0 o menos
-    });
-  }, 3000);
 
-  return () => clearInterval(intervalo);
-}, []);
+//tenemos que aprender a usar estas giladas, pero venimos de puta madre
+function Main({ stakeado }) {
 
   return (
-    <article className="main">
+    <article className="main background-stake">
       <h1>
         <code>Staking</code>
       </h1>

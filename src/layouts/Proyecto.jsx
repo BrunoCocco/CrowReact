@@ -1,14 +1,12 @@
 function Proyecto({ invertido, setInvertido }) {
   return (
     <>
-      <article className="proyecto">
-        <div>
-          <button onClick={() => setInvertido(invertido + 10)}>
-            Agregar saldo
+    <section className="container">
+      <article className="row  mt-3">
+          <button className="col-sm-2 offset-md-3" onClick={() => setInvertido(invertido + 10)}>
+            Agregar dinero
           </button>
-        </div>
-        <div>
-          <button
+          <button className="col-sm-2 offset-md-3"
             onClick={() => {
               if (invertido <= 0) {
                 alert("No se puede retirar más saldo");
@@ -17,10 +15,11 @@ function Proyecto({ invertido, setInvertido }) {
               }
             }}
           >
-            Agregar saldo
+            retira dinero
           </button>
-        </div>
+     
       </article>
+      </section>
     </>
   );
 }

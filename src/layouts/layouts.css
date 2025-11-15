@@ -1,6 +1,9 @@
 .background{
     background-color: sandybrown;
 }
+.background-stake{
+    background-color: aqua;
+}
 .button-style{
     margin: 0 10px;
 }

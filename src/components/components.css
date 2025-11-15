@@ -1,24 +1,22 @@
 /* Inicio.css */
-.container {
-  display: grid;
-  grid-template-areas:
-    "cuenta main"
-    "proyecto main";
-  grid-template-columns: 4fr 1fr;
-  gap: 20px;
+header {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  position: relative;
+  /* lo fija en la pantalla */
+  top: 0;
+  /* pegado al borde superior */
+  left: 0;
+  width: 100%;
+  /* ocupa todo el ancho */
+  z-index: 1000;
+  /* queda por encima del contenido */
+  background-color: #fff;
+  /* poné el color que quieras */
+  padding: 10px 20px;
+  /* espacio interno */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* sombra opcional */
 
-}
-.cuenta {
-  grid-area: cuenta;
-  margin: 10px 0px ;
-}
 
-.proyecto {
-  grid-area: proyecto;
-  margin: 10px 0px ;
-}
-
-.main {
-  grid-area: main;
-  margin: 10px 0px ;
 }

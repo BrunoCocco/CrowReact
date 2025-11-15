@@ -4,7 +4,7 @@
   grid-template-areas:
     "cuenta main"
     "proyecto main";
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 4fr 1fr;
   gap: 20px;
 
 }

@@ -1,9 +1,9 @@
-function Header() {
+
+function Header({setVista}) {
   return (
     <>
-      <button>boton 1</button>
-      <button>boton 3</button>
-      <button>boton2</button>
+      <button onClick={()=>{setVista("Wallet")}}>wallet</button>
+      <button onClick={()=>{setVista("VistaProy")}}>vista proyectos</button>
     </>
   );
 }

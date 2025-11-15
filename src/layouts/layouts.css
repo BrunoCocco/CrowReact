@@ -1,3 +1,9 @@
 .background{
     background-color: sandybrown;
 }
+.button-style{
+    margin: 0 10px;
+}
+.mr{
+    margin-left: 15px;
+}

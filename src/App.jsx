@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Inicio from "./components/Inicio";
 import Header from "./components/Header";
-import "./components/components.css";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     const intervalo = setInterval(() => {
       //Este modifica si es mayor que cero
       setStakeado((prev) => {
-        if (prev > 0) return prev + 0.01;
+        if (prev > 0) return prev + prev / 1000;
         return prev;
       });
     }, 3000);

@@ -3,7 +3,7 @@ import Wallet from "./Wallet";
 import VistasProy from "./VistasProy";
 import "./components.css";
 
-function Inicio({  vista, invertido, setInvertido, stakeado, setStakeado }) {
+function Inicio({ vista, invertido, setInvertido, stakeado, setStakeado }) {
   return (
     <section className="container">
       {vista === "Wallet" && (

@@ -8,7 +8,7 @@ function Wallet({ invertido, setInvertido, stakeado, setStakeado }) {
     <>
       <section className="container">
         <article className="row">
-          <div className="offset-md-2 col-sm-6 col-md-4">
+          <div className="col-sm-6 col-md-3">
             <Cuenta
               invertido={invertido}
               setInvertido={setInvertido}
